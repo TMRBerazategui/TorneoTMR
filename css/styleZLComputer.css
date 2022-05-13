@@ -3,7 +3,7 @@
         display: none;
     }
     body, .phoneContender .glass2, .phoneContender .glass, .phoneContender .topborder, .phoneContender .bottomborder{
-        background-color: #1e212a;
+        background-color: #2170a8;
     }
 }
 @media only screen and (min-width:768px){
@@ -17,7 +17,7 @@
     width: 100%;
     height: 100vh;
     position: absolute;
-    background-color: #1e212a;
+    background-color: #2170a8;
 }
 
 .phoneContender .contenedor .navbares {
@@ -127,13 +127,27 @@
         transform: translateX(150px);
     }
     .footer{
-        background-color: #1e212a;
+        background-color: #2170a8;
         padding: 20px 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 5vh;
         font-size: 14px;
-        color:#138ff5;
+        color:white;
         font-family: 'Roboto', sans-serif;
       }
+
+       /*Style Index Logos Auspiciantes Sponsors*/
+    .computerContender .imgAus{
+        width: 15vw;
+      }
+  .computerContender .imgAus2{
+      width: 10vw;
+  }
+  .phoneContender .imgAus{
+      width: 30vw;
+    }
+.phoneContender .imgAus2{
+    width: 25vw;
+}

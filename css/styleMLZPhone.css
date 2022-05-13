@@ -24,7 +24,7 @@
           width: 100%;
         }
         .bottomborder{
-          background-color:#1e212a;
+          background-color:white;
           z-index: -3;
           bottom: 0;
           width: 100%;
@@ -34,13 +34,13 @@
           margin-bottom: 6vh;
         }
         .encabeza2 p{
-          color: #dfe0e2;
+          color: #2170a8;
           font-family: 'Avenir';
           font-size: 4vh;
         }
         .glass{
           width: 100%;
-          background-color: #1e212a;
+          background-color: white;
           overflow-x:hidden;
           border-radius: 0 0 0 0;
           z-index: 0;
@@ -50,7 +50,7 @@
           bottom: 0;
           margin: 0 0 -20vh 0;
           border-radius: 50px 50px 0 0;
-          background-color: #dfe0e2;
+          background-color: #2170a8;
           z-index: -2;
           overflow-x:hidden;
           overflow-y: hidden;
@@ -75,7 +75,7 @@
           margin: 4vh 0 0 3vh;
           font-size: 3.5vh;
           position: fixed;
-          color: #fafafc;
+          color: #2170a8;
         }
         .lyt{
           width: 100%;
@@ -109,7 +109,7 @@
           grid-template-columns: repeat(5, 1fr);
           border-radius: 50px;
           padding: 0 10% 0 0;
-          background: #1e212a;
+          background: white;
           box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.12), 0 22.3px 17.9px rgba(0, 0, 0, 0.08), 0 100px 80px rgba(0, 0, 0, 0.04);
           overflow: hidden;
         }
@@ -131,7 +131,7 @@
           font-size: 20px;
         }
         .phoneContender nav ul li a i {
-        color:#dfe0e2;
+        color:#2170a8;
           width: 100%;
           height: 100%;
           opacity: 0.4;
@@ -185,7 +185,7 @@
             }
             .botones .vuton{
               border-radius: 30px;
-              border: 2px solid #1e212a;
+              border: 2px solid white;
               width: 100%;
               text-align: center;
               padding: 20px 8vw 10px 8vw;
@@ -196,10 +196,10 @@
             }
             .botones i{ 
               font-size: 5vh;
-              color: #1e212a;
+              color: white;
             }
             .botones .textoBoton{
-              color: #1e212a;
+              color: white;
               margin-top: 1.5vh;
               font-size: 3vh;
               font-family: 'Gilroy';
@@ -242,3 +242,17 @@
           }
           
       }
+
+       /*Style Index Logos Auspiciantes Sponsors*/
+    .computerContender .imgAus{
+      width: 15vw;
+    }
+.computerContender .imgAus2{
+    width: 10vw;
+}
+.phoneContender .imgAus{
+    width: 30vw;
+  }
+.phoneContender .imgAus2{
+  width: 25vw;
+}
